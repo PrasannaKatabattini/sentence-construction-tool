@@ -276,7 +276,8 @@ const App: React.FC = () => {
 
   const fetchQuestion = async (index: number) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/question/${index}`);
+      // const res = await fetch(`http://localhost:5000/api/question/${index}`);
+      const res=await fetch(`https://sentence-construction-tool-tt5f.onrender.com/api/question/${index}`)
       const data = await res.json();
       if (data.success) {
         setQuestion(data.data);
