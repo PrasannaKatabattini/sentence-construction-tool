@@ -1,8 +1,4 @@
-services:
-  - type: web
-    name: sentence-construction-app
-    env: node
-    buildCommand: npm install && npm run build
-    startCommand: node server/server.js
-    rootDir: .
-    autoDeploy: true
+routes:
+  - type: rewrite
+    source: /.*
+    destination: /index.html
