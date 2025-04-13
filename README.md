@@ -8,7 +8,7 @@ An interactive, timed sentence-building quiz game that helps users practice and 
 
 > A short clip showing the app in action:
 
-<video src="./src/assets/quiz-video_LeDdniQq.mp4" controls width="100%"></video>
+<video src="./public/assets/demo.mp4" controls width="100%"></video>
 
 ---
 
@@ -16,7 +16,7 @@ An interactive, timed sentence-building quiz game that helps users practice and 
 
 | Quiz View | Result View |
 |-----------|-------------|
-| ![Quiz](./src/assets/quiz.png) | ![Result](./src/assets/result.png) |
+| ![Quiz](./assets/quiz.png) | ![Result](./assets/result.png) |
 
 ---
 
