@@ -493,7 +493,8 @@ const App: React.FC = () => {
       </div>
 
       <div className="text-lg mb-6">
-        {renderSentence(question.sentence, selectedAnswers)}
+{/*         {renderSentence(question.sentence, selectedAnswers)} */}
+      {question && renderSentence(question.sentence, selectedAnswers)}
       </div>
 
       <div className="text-sm mb-2 text-gray-500">
