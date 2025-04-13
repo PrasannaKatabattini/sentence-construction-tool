@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Question = () => {
-  const sentenceTemplate = "The cat ___ on the mat.";
+  // const sentenceTemplate = "The cat ___ on the mat.";
   const options = ["sits", "jumps", "runs", "sleeps"];
   
   const [selectedWord, setSelectedWord] = useState<string | null>(null);
