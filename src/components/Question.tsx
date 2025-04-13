@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Question = () => {
   // const sentenceTemplate = "The cat ___ on the mat.";
