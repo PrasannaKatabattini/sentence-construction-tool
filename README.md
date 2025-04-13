@@ -16,7 +16,7 @@ An interactive, timed sentence-building quiz game that helps users practice and 
 
 | Quiz View | Result View |
 |-----------|-------------|
-| ![Quiz](./assets/quiz.png) | ![Result](./assets/result.png) |
+| ![Quiz](./src/assets/quiz.png) | ![Result](./src/assets/result.png) |
 
 ---
 
